@@ -25,3 +25,15 @@ td.error {
 .flex-child{
     background-color: green;
 }
+
+.site-header {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 768px) {
+    .site-header {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
