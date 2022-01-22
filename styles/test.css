@@ -1,0 +1,27 @@
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.test-table {
+    background-color: bisque;
+}
+
+
+table.test-table td, table.test-table th {
+    border: 1px solid black;
+    padding: 1rem; /*16px*/
+}
+
+td.error {
+    color: red;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-child{
+    background-color: green;
+}

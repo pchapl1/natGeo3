@@ -1,0 +1,23 @@
+table.challenge-table {
+    border: 3px solid grey;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+table.challenge-table td, table.challenge-table th {
+    border: 3px solid rgb(182, 182, 182);
+    padding: 1.5rem; /*16px*/
+}
+
+table.challenge-table tr:nth-child(odd) {
+    background-color: rgb(223, 219, 219);
+}
+
+.grade-col {
+    text-align: center;
+}
+
+.student-name {
+    color: red;
+    font-size: 25px;
+}
